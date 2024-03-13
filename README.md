@@ -1,4 +1,4 @@
-# Final-Project-Transforming-and-Analyzing-Data-with-SQL
+# Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
 The goal of this project is to extract, explore, transform and analyze data using SQL (PostgreSQL). The dataset provided contains information about e-commerce activities, and the aim is to extract insights regarding customer behavior, product performance, and revenue generation.
