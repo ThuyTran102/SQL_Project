@@ -10,9 +10,11 @@ LIMIT 10;
 ```
 **Note:** Here, I do not use **COUNT(DISTINCT fullvisitorid)** because I want to count visits (visit times). One fullvisitorid can visit the website many times.
 
-Answer: 
-![Output_ownQ1](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_ownQ1.png)
+Answer:
 
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="35%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_ownQ1.png" alt="Outcome"></img>
+</p>
 
 
 ## Question 2: In each country, how many website visits resulted in transactions during the period from 2016-08-01 to 2017-08-01?
@@ -26,8 +28,10 @@ GROUP BY country;
 ```
 
 Answer:
-![Output_ownQ2](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_ownQ2.png)
 
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="40%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_ownQ2.png" alt="Outcome"></img>
+</p>
 
 
 ## Question 3: List all product names along with their sku code that are ordered within the countries of United States or Canada during the period from 2016-08-01 to 2017-08-01.
@@ -42,7 +46,10 @@ WHERE LOWER(country) IN ('united states', 'canada')
 ```
 
 Answer:
-![Output_ownQ3](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_ownQ3.png)
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="50%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_ownQ3.png" alt="Outcome"></img>
+</p>
 
 
 
@@ -71,8 +78,9 @@ FROM cte_transactions_count_2017_by_country
 ```
 
 Answer:
-![Output_ownQ4](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_ownQ4.png)
 
-
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="80%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_ownQ4.png" alt="Outcome"></img>
+</p>
 
 
