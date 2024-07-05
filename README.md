@@ -1,9 +1,9 @@
 # Project-Transforming-and-Analyzing-Data-with-SQL
 
-## Project/Goals
+## Project Goals
 The goal of this project is to extract, explore, transform and analyze data using SQL (PostgreSQL). The dataset provided contains information about e-commerce activities, and the aim is to extract insights regarding customer behavior, product performance, and revenue generation.
 
-## Process
+## Prject Process
 ### Step 1: Loading csv files into Database on PgAdmin 4.
 ### Step 2: Explore to understanding data
 * Explore relationships between different tables
