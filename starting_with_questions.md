@@ -3,7 +3,6 @@ Answer the following questions and provide the SQL queries used to find the answ
     
 ## Question 1: Which cities and countries have the highest level of transaction revenues on the site?
 
-
 SQL Queries:
 
 ```sql
@@ -18,14 +17,14 @@ LIMIT 1;
 **Note:** 
 Because I don't have enough information as well as domain knowlege in this field, I'm not sure what the real difference between _totalTransactionRevenue_ and _transactionRevenue_ is, even though I spent much time to explore the data. Finally, I decided to include 2 these columns to answer this question.
 
-
 Answer:
-![Output_Q1](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q1.png)
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="80%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q1.png" alt="Outcome"></img>
+</p>
 
 
 
 ## Question 2: What is the average number of products ordered from visitors in each city and country?
-
 
 SQL Queries:
 
@@ -67,12 +66,18 @@ SELECT DISTINCT date FROM analytics ORDER BY date  --database 93 continuous days
 
 
 Answer:
+
 _Output of version 1:_
-![Output_Q2_v1](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q2_v1.png)
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="60%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q2_v1.png" alt="Outcome"></img>
+</p>
 
 _Output of version 2:_
-![Output_Q2_v2](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q2_v2.png)
 
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="60%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q2_v2.png" alt="Outcome"></img>
+</p>
 
 
 
@@ -95,8 +100,10 @@ ORDER BY total_revenue DESC NULLS LAST, num_products DESC NULLS LAST, num_orders
 ```
 
 Answer:
-![Output_Q3](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q3.png)
 
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="100%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q3.png" alt="Outcome"></img>
+</p>
 
 
 
@@ -159,11 +166,19 @@ ORDER BY number_of_products_sold DESC;
 
 
 Answer:
+
 _Output of version 1:_
-![Output_Q4_v1](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q4_v1.png)
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="70%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q4_v1.png" alt="Outcome"></img>
+</p>
 
 _Output of version 2:_
-![Output_Q4_v2](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q4_v2.png)
+
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="85%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q4_v2.png" alt="Outcome"></img>
+</p>
+
 
 
 ## Question 5: Can we summarize the impact of revenue generated from each city/country?
@@ -182,5 +197,6 @@ ORDER BY total_transactionrevenue DESC NULLS LAST;
 
 Answer:
 
-![Output_Q5](https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/Output_Q5.png)
-
+<p align="center" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="60%" src="https://github.com/ThuyTran102/SQL-Project-FEB2024/blob/main/images/Output_Q5.png" alt="Outcome"></img>
+</p>
