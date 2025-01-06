@@ -1,4 +1,17 @@
-# Project Transforming & Analyzing Data with SQL
+# E-commercial Behavior Analysis
+### Project Transforming & Analyzing Data with SQL
+
+<p align="left" style="margin-top: 20px; margin-bottom: 20px;">
+<img width="50%" src="https://github.com/ThuyTran102/SQL_Project/blob/main/images/e-commerce.jpg" alt="e-commerce"></img>
+</p>
+
+## Table of Contents:
+- [Project Objectives](https://github.com/ThuyTran102/SQL_Project?tab=readme-ov-file#project-objectives)
+- [Project Process](https://github.com/ThuyTran102/SQL_Project?tab=readme-ov-file#project-process)
+- [Code](https://github.com/ThuyTran102/SQL_Project?tab=readme-ov-file#code)
+- [Results](https://github.com/ThuyTran102/SQL_Project?tab=readme-ov-file#results)
+- [Challegens](https://github.com/ThuyTran102/SQL_Project?tab=readme-ov-file#challenges)
+  
 
 ## Project Objectives:
 - The goal of this project is to extract, explore, transform and analyze data using SQL (PostgreSQL).
