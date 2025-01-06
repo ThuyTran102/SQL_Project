@@ -1,31 +1,40 @@
-# Project-Transforming-and-Analyzing-Data-with-SQL
+# Project Transforming & Analyzing Data with SQL
 
-## Project Goals
-The goal of this project is to extract, explore, transform and analyze data using SQL (PostgreSQL). The dataset provided contains information about e-commerce activities, and the aim is to extract insights regarding customer behavior, product performance, and revenue generation.
+## Project Objectives:
+- The goal of this project is to extract, explore, transform and analyze data using SQL (PostgreSQL).
+- The dataset provided contains information about e-commerce activities, and the aim is to extract insights regarding customer behavior, product performance, and revenue generation.
 
-## Prject Process
-### Step 1: Loading csv files into Database on PgAdmin 4.
-### Step 2: Explore to understanding data
+## Project Process:
+#### Step 1: Loading csv files into Database on PgAdmin 4.
+#### Step 2: Explore to understanding data
 * Explore relationships between different tables
 * Explore relationships between different variables
-### Step 3: Cleaning and transforming data
+#### Step 3: Cleaning and transforming data
 * Identify duplicate values
 * Identify and handle missing values/ null values
 * Detect and address invalid or incorrect values
-### Step 4: Analyzing data
+#### Step 4: Analyzing data
 * Analyze patterns in customer behavior and product sales by cities and countries
-### Step 5: QAing data
+#### Step 5: QAing data
 
 
-## Results
-(what I discovered this data could tell me and how I used the data to answer those questions)
+## Code:
+Please see code in files as belows:
+1. [cleaning_data.md](https://github.com/ThuyTran102/SQL_Project_Feb2024/blob/main/cleaning_data.md)
+2. [starting_with_data.md](https://github.com/ThuyTran102/SQL_Project_Feb2024/blob/main/starting_with_data.md)
+3. [starting_with_questions.md](https://github.com/ThuyTran102/SQL_Project_Feb2024/blob/main/starting_with_questions.md)
+4. [QA.md](https://github.com/ThuyTran102/SQL_Project_Feb2024/blob/main/QA.md)
+
+
+## Results: 
+*(what I discovered this data could tell me and how I used the data to answer those questions)*
 * Identified that United States had the highest transaction revenues on the site during the period from 2016-08-01 to 2017-08-01.
 * Evaluated of revenue generation trends across different regions.
 * Identified the average number of products and pattern in the types (product categories) which were ordered from visitors in each city and country through website.
 
 
-## Challenges 
-(discuss challenges I faced in the project)
+## Challenges:
+*(discuss challenges I faced in the project)*
 1. Do the tables really relates each other? 
 	* This dataset is frustrating to understand. After a long time studying each variable in each table, I realized that it seemed that the 5 tables provided did not complement each other's data.
 
@@ -46,8 +55,8 @@ The goal of this project is to extract, explore, transform and analyze data usin
 I thought about replacing them by mode values, but I found it unreasonable.
 
 
-## Future Goals
-(what would you do if you had more time?)
+## Future Goals:
+*(what would you do if you had more time?)*
 1. If I had an opportunity to talk with those who are experts in this field, I would try to determine a right way (right features) to define whether a product were sold or a product were ordered by visitors.
 
 2. If more time were available, I would do analysis of customer behavior metrics, such as page views and time spent on site.
